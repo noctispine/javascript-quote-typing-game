@@ -70,7 +70,7 @@ typedText.addEventListener("input", () => {
     // focus button
     setTimeout(() => btnStart.focus(), 1000);
 
-    // remove the last highlight class
+    // remove the last highlighted class
     document.querySelectorAll("#word")[wordIndex].className = "";
   }
   // input controls for highlights
